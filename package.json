@@ -25,6 +25,15 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
