@@ -5,9 +5,9 @@
 ## Include functions:
 - Auto generate fields.
 - Optimize performance.
-- Support validate by Yup (Yup npm)
+- Support validate by [Yup](https://www.npmjs.com/package/yup)
 
-##`
+```javascript
 <Form
     rules={
         yup.object().shape({
@@ -39,4 +39,4 @@
         }
     }
 </Form>
-`
+```
