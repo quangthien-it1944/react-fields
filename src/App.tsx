@@ -13,9 +13,9 @@ function App() {
                     })
                 }
                 fields={[
-                    {label: "Tài khoản", name: "username", type: "text"},
+                    {label: "Username", name: "username", type: "text"},
                     {
-                        label: "Mật khẩu",
+                        label: "Password",
                         name: "password",
                         type: "password",
                         cond: {
